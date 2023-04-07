@@ -1,0 +1,74 @@
+.movies-banner {
+  height: 20vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.movies-banner::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 22vh;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to top, #0f0f0f, rgba(0, 0, 0, 0));
+}
+
+.movies__Wrapper {
+  margin-top: 1rem;
+  padding: 0rem 5rem;
+}
+@media only screen and (max-width: 1024px) {
+  .movies__Wrapper {
+    padding: 0rem 2.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .movies__Wrapper {
+    padding: 0rem 1.5rem;
+  }
+}
+
+.movies__header {
+  text-align: center;
+  padding: 1rem 2rem 2rem 2rem;
+}
+.movies__header h2 {
+  text-transform: uppercase;
+}
+.movies__conteiner {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  gap: 20px;
+}
+.movies__conteiner__item__image {
+  position: relative;
+}
+.movies__conteiner__item__image::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.movies__conteiner__item__image:hover::after {
+  opacity: 1;
+}
+.movies__conteiner__item__image:hover .cart-btn {
+  opacity: 0.8;
+}
+.movies__conteiner__item__image img {
+  border-radius: 30px;
+  width: 100%;
+}
+.movies__conteiner__item h3 {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 300;
+}/*# sourceMappingURL=movieGrid.css.map */

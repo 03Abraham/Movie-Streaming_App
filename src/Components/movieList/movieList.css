@@ -1,0 +1,31 @@
+.movie-list .movie-list-slider {
+  width: 15%;
+}
+@media only screen and (max-width: 1024px) {
+  .movie-list .movie-list-slider {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .movie-list .movie-list-slider {
+    width: 40%;
+  }
+}
+.movie-list img {
+  width: 100%;
+}
+
+.similar-list {
+  margin: 2rem 0;
+  padding: 0rem 6rem;
+}
+@media only screen and (max-width: 1024px) {
+  .similar-list {
+    padding: 0rem 4rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .similar-list {
+    padding: 0rem 1rem;
+  }
+}/*# sourceMappingURL=movieList.css.map */
