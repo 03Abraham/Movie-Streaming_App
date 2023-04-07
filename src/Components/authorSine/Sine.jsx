@@ -5,7 +5,7 @@ const Sine = () => {
     <div className="sine">
       <p>
         {" "}
-        <span>@WebSite Made By</span> "Giga||Shavliashvili"{" "}
+        <span>@WebSite Made By</span> "Mak110//@braham"{" "}
       </p>
     </div>
   );
