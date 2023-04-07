@@ -9,8 +9,10 @@ const Footer = () => {
     <div className="footer" style={{ backgroundImage: `url(${bg})` }}>
       <div className="footer__content">
         <div className="footer__content__logo">
-          <img src={logo} alt="" />
-          <Link to="/">Gmovies</Link>
+          
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
         </div>
         <div className="footer__content__menus">
           <div className="footer__content__menu">
