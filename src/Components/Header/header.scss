@@ -1,7 +1,7 @@
 @use "../../scss/" as *;
 
 img {
-  width: 40px;
+  width: 240px;
   margin-right: 10px;
   @include mobile {
     width: 30px;
