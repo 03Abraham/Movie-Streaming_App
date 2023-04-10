@@ -38,7 +38,7 @@ ul {
 
 @media (hover: hover) {
   a:hover {
-    color: #ff0000;
+    color: #002fff;
   }
 }
 .section {
@@ -82,7 +82,7 @@ ul {
 .search input {
   padding: 5px 10px;
   font-size: 18px;
-  border: 1px solid rgba(255, 0, 0, 0.459);
+  border: 1px solid rgba(47, 0, 255, 0.459);
   background: transparent;
   border-radius: 30px;
   outline: none;

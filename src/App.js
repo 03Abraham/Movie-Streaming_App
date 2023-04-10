@@ -6,7 +6,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Detail from "./Page/Details/Detail";
 import Catalog from "./Page/Catalog";
-import Tv from "./Page/Tv";
+// import Tv from "./Page/Tv";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </div>
+    </div> 
   );
 };
 
