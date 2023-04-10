@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, {useRef, useEffect } from "react";
 import logo from "../../assets/tmovie.png";
 import { Link, useLocation } from "react-router-dom";
 import "./header.scss";
@@ -31,7 +31,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll");
   }, []);
   const active = Navlist.findIndex((el) => el.path === pathname);
-
+  
   return (
     <div ref={headerRef} className="header">
       <div className="header__Wrap Conteiner">
