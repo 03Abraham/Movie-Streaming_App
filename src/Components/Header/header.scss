@@ -24,7 +24,7 @@ img {
   &__Wrap {
     @include flex(center, space-between);
     height: 100%;
-    padding: 0 2rem;
+    padding: 0 1rem;
     @include mobile {
       justify-content: center;
       padding: 0 1rem;
